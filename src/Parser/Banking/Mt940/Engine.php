@@ -12,7 +12,7 @@ use Kingsquare\Parser\Banking\Mt940;
  */
 abstract class Engine
 {
-    private $rawData = '';
+    protected $rawData = '';
     protected $currentStatementData = '';
     protected $currentTransactionData = '';
 
